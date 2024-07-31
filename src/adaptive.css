@@ -1,0 +1,3274 @@
+@media(max-width: 321px) {
+    .header{
+        max-width: 320px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(16, 16, 29, 0.9);
+    }
+    
+    .header_logo{
+        margin: 5px 0px 5px 10px;
+        transition: 1s;
+    }
+    .logo__title {
+        font-family: "Raleway";
+        font-size: 10px;
+        font-weight: 800;
+        line-height: normal;
+        text-align: left;
+        color: white;
+    }
+   
+
+    .header__nav.mob{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 10px 5px 0px;
+    }
+    
+
+    .header__nav{
+        display: flex;
+        justify-content: start;
+        margin: 0px;
+    }
+
+    .mob__upi{
+        width: 10px;
+        height: 1.5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+    .mob__dpi{
+        margin-top: 2px;
+        width: 10px;
+        height: 1.5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+    .mob__list{
+        margin-top: 15px;
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        margin-left: -60px;
+        background-color: rgba(16, 16, 29, 0.9);
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    .mob__item{
+        font-size: 10px;
+        margin-top: 2px;
+        color: white;
+    }
+    
+    .header__nav{
+        display: none
+    }
+    
+    .nav__item{
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;    
+        font-family: "Lato";
+        font-size: 5px;
+        font-weight: 600;
+        line-height: 15.6px;
+        text-align: right;
+        margin-left: 60px;
+        transition: 0.5s;
+    }
+    
+    .nav__item:hover{
+        color: rgba(62, 156, 220, 1);
+        transition: 0.5s;
+    }
+    
+    .nav__item.first{
+        margin: 0;
+    }
+
+
+   /* offer section */
+
+.main{
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.main__offer{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__title{
+    width: 200px;
+    margin: 5px 0px 0px 20px;
+}
+
+.offer__title  .title__text{
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.offer_discription{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 0px 20px;
+}
+
+.discription__title{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;  
+}
+
+.discription__value{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+}
+
+.value__item{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-top: 1px;
+}
+
+.offer__btn{
+    display: flex;
+    justify-content: start;
+    margin: 5px 0px 0px 10px;
+}
+
+.btn__buy{
+    background-color: rgba(62, 156, 220, 1);
+    border: 1px solid white;
+    color: white;
+    transition: 0.7s;
+}
+
+.btn__buy:hover{
+    background-color: white;
+    border: 1px solid rgba(62, 156, 220, 1);
+    color: black;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.btn__info{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(111, 109, 123, 1);
+    color: rgba(42, 43, 48, 1);
+    transition: 0.7s;
+}
+
+.btn__info:hover{
+    background-color: rgba(111, 109, 123, 1) ;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+.offer__btn .offerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 15px;
+    
+    border-radius: 4px;
+    margin-left: 10px;
+
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/* order section */
+
+.main__order{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-image: url(../public/img/blackBack.png);
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.order__title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order__title .title__text{
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title__info{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgba(187, 187, 187, 1);
+    margin-top: 5px;
+
+}
+
+.order__scheme{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cheme__img{
+    width: 100%;
+}
+
+.order__inputs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+.order__inputs input{
+    width: 85px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 1);
+
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+
+    transition: width 0.5s cubic-bezier(0, 0, 1, 1) 10ms;
+}
+
+.order__inputs input::placeholder{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgba(39, 39, 51, 1);
+    padding-left: 0px;
+}
+
+.order__inputs input:hover{
+    width: 90px;
+    background-color: rgb(244, 244, 244);
+    transition: 0.5s;
+}
+
+.inputs__mail {
+    margin: 0px 10px 0px 10px;
+}
+
+.order__settings{
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px 0px 20px;
+}
+
+.settings__slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.slider__info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 8px;
+}
+
+.info__text{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.slider__container{
+    margin-top: 5px;
+}
+
+#fader {
+	position: relative;
+	width: 170px;
+	background: rgba(255, 255, 255, 0.7);
+    appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	border-radius: 4px;
+    height: 2px;   
+}
+
+#fader::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: rgba(66, 169, 237, 1);
+	border: solid 3px rgba(40, 102, 144, 1);
+}
+
+.settings__file{
+    margin-left: 10px;
+}
+
+.file__button{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 18px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid rgba(62, 156, 220, 1);
+
+}
+
+.file__button:hover .button__icon{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.button__icon{
+    width: 8px;
+    height: 8px;   
+    transition: 1s; 
+}
+
+.button__txt{
+    margin-left: 10px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.order__subbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subbtn__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    width: 100px;
+    height: 18px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(62, 156, 220, 1);    
+    transition: 0.5s;
+
+    font-family: "Lato";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.subbtn__btn:hover{
+    transition: 0.5s;
+    border: 1px solid rgba(62, 156, 220, 1); 
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(62, 156, 220, 1); 
+}
+
+
+/* reviews section */
+.main .reviews {
+    padding: 20px 0px 20px 0px;
+    width: 100vw;
+    max-width: 100%;
+  }
+  .main .reviews .carousel__container {
+    max-width: 320px;
+    height: 130px;
+  }
+  .main .reviews .carousel__container .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item .item__name {
+    margin: 0px;
+    font-size: 12px;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item .item__info {
+    font-size: 10px;
+    color: #555;
+    font-family: "Lato";
+  }
+  .main .reviews .carousel__container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .main .reviews .carousel__container button:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .main .reviews .carousel__container .prev {
+    left: 0px;
+  }
+  .main .reviews .carousel__container .next {
+    right: 0px;
+  }
+
+  
+
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(61, 64, 80, 1);
+}
+
+.footer__rules{
+    margin: 10px;
+}
+
+.rules__txt{
+    white-space: normal;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.rcolumn{
+    display: none;
+}
+
+.footer__wallets{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wallets__qiwi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.qiwi__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.qiwi__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.wallets__yandex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.yandex__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.yandex__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.wallets__webmoney{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.webmoney__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.webmoney__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.lcolumn{
+   display: none;
+}
+
+.footer__contact{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.mail__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.mail__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+
+.contact__vk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.vk__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.vk__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+
+}
+
+@media (min-width:321px) and (max-width: 361px) {
+    .header{
+        max-width: 361px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(16, 16, 29, 0.9);
+    }
+    
+    .header_logo{
+        margin: 5px 0px 5px 10px;
+        transition: 1s;
+    }
+    .logo__title {
+        font-family: "Raleway";
+        font-size: 10px;
+        font-weight: 800;
+        line-height: normal;
+        text-align: left;
+        color: white;
+    }
+   
+
+    .header__nav.mob{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 10px 5px 0px;
+    }
+    
+
+    .header__nav{
+        display: flex;
+        justify-content: start;
+        margin: 0px;
+    }
+
+    .mob__upi{
+        width: 10px;
+        height: 1.5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+    .mob__dpi{
+        margin-top: 2px;
+        width: 10px;
+        height: 1.5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+    .mob__list{
+        margin-top: 15px;
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        margin-left: -60px;
+        background-color: rgba(16, 16, 29, 0.9);
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    .mob__item{
+        font-size: 10px;
+        margin-top: 2px;
+        color: white;
+    }
+    
+    .header__nav{
+        display: none
+    }
+    
+    .nav__item{
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;    
+        font-family: "Lato";
+        font-size: 5px;
+        font-weight: 600;
+        line-height: 15.6px;
+        text-align: right;
+        margin-left: 60px;
+        transition: 0.5s;
+    }
+    
+    .nav__item:hover{
+        color: rgba(62, 156, 220, 1);
+        transition: 0.5s;
+    }
+    
+    .nav__item.first{
+        margin: 0;
+    }
+
+
+   /* offer section */
+
+.main{
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.main__offer{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__title{
+    width: 200px;
+    margin: 5px 0px 0px 20px;
+}
+
+.offer__title  .title__text{
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.offer_discription{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 0px 20px;
+}
+
+.discription__title{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;  
+}
+
+.discription__value{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+}
+
+.value__item{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-top: 1px;
+}
+
+.offer__btn{
+    display: flex;
+    justify-content: start;
+    margin: 5px 0px 0px 10px;
+}
+
+.btn__buy{
+    background-color: rgba(62, 156, 220, 1);
+    border: 1px solid white;
+    color: white;
+    transition: 0.7s;
+}
+
+.btn__buy:hover{
+    background-color: white;
+    border: 1px solid rgba(62, 156, 220, 1);
+    color: black;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.btn__info{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(111, 109, 123, 1);
+    color: rgba(42, 43, 48, 1);
+    transition: 0.7s;
+}
+
+.btn__info:hover{
+    background-color: rgba(111, 109, 123, 1) ;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+.offer__btn .offerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 15px;
+    
+    border-radius: 4px;
+    margin-left: 10px;
+
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/* order section */
+
+.main__order{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-image: url(../public/img/blackBack.png);
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.order__title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order__title .title__text{
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title__info{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgba(187, 187, 187, 1);
+    margin-top: 5px;
+
+}
+
+.order__scheme{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cheme__img{
+    width: 100%;
+}
+
+.order__inputs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+.order__inputs input{
+    width: 85px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 1);
+
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+
+    transition: width 0.5s cubic-bezier(0, 0, 1, 1) 10ms;
+}
+
+.order__inputs input::placeholder{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgba(39, 39, 51, 1);
+    padding-left: 0px;
+}
+
+.order__inputs input:hover{
+    width: 90px;
+    background-color: rgb(244, 244, 244);
+    transition: 0.5s;
+}
+
+.inputs__mail {
+    margin: 0px 10px 0px 10px;
+}
+
+.order__settings{
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px 0px 40px;
+}
+
+.settings__slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.slider__info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 8px;
+}
+
+.info__text{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.slider__container{
+    margin-top: 5px;
+}
+
+#fader {
+	position: relative;
+	width: 170px;
+	background: rgba(255, 255, 255, 0.7);
+    appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	border-radius: 4px;
+    height: 2px;   
+}
+
+#fader::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: rgba(66, 169, 237, 1);
+	border: solid 3px rgba(40, 102, 144, 1);
+}
+
+.settings__file{
+    margin-left: 10px;
+}
+
+.file__button{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 18px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid rgba(62, 156, 220, 1);
+
+}
+
+.file__button:hover .button__icon{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.button__icon{
+    width: 8px;
+    height: 8px;   
+    transition: 1s; 
+}
+
+.button__txt{
+    margin-left: 10px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.order__subbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subbtn__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    width: 100px;
+    height: 18px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(62, 156, 220, 1);    
+    transition: 0.5s;
+
+    font-family: "Lato";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.subbtn__btn:hover{
+    transition: 0.5s;
+    border: 1px solid rgba(62, 156, 220, 1); 
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(62, 156, 220, 1); 
+}
+
+
+/* reviews section */
+.main .reviews {
+    padding: 20px 0px 20px 0px;
+    max-width: 100%;
+    width: 100vw;
+  }
+  .main .reviews .carousel__container {
+    max-width: 360px;
+    height: 130px;
+  }
+  .main .reviews .carousel__container .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item .item__name {
+    margin: 0px;
+    font-size: 12px;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item .item__info {
+    font-size: 10px;
+    color: #555;
+    font-family: "Lato";
+  }
+  .main .reviews .carousel__container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .main .reviews .carousel__container button:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .main .reviews .carousel__container .prev {
+    left: 0px;
+  }
+  .main .reviews .carousel__container .next {
+    right: 0px;
+  }
+
+  
+
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(61, 64, 80, 1);
+}
+
+.footer__rules{
+    margin: 10px;
+}
+
+.rules__txt{
+    white-space: normal;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.rcolumn{
+    display: none;
+}
+
+.footer__wallets{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wallets__qiwi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.qiwi__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.qiwi__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.wallets__yandex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.yandex__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.yandex__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.wallets__webmoney{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.webmoney__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.webmoney__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.lcolumn{
+   display: none;
+}
+
+.footer__contact{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.mail__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.mail__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+
+.contact__vk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.vk__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.vk__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+
+}
+
+@media(min-width:361px) and (max-width: 401px) {
+    .header{
+        max-width: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(16, 16, 29, 0.9);
+    }
+    
+    .header_logo{
+        margin: 5px 0px 5px 10px;
+        transition: 1s;
+    }
+    .logo__title {
+        font-family: "Raleway";
+        font-size: 10px;
+        font-weight: 800;
+        line-height: normal;
+        text-align: left;
+        color: white;
+    }
+   
+
+    .header__nav.mob{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 10px 5px 0px;
+    }
+    
+
+    .header__nav{
+        display: flex;
+        justify-content: start;
+        margin: 0px;
+    }
+
+    .mob__upi{
+        width: 10px;
+        height: 1.5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+    .mob__dpi{
+        margin-top: 2px;
+        width: 10px;
+        height: 1.5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+    .mob__list{
+        margin-top: 15px;
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        margin-left: -60px;
+        background-color: rgba(16, 16, 29, 0.9);
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    .mob__item{
+        font-size: 10px;
+        margin-top: 2px;
+        color: white;
+    }
+    
+    .header__nav{
+        display: none
+    }
+    
+    .nav__item{
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;    
+        font-family: "Lato";
+        font-size: 5px;
+        font-weight: 600;
+        line-height: 15.6px;
+        text-align: right;
+        margin-left: 60px;
+        transition: 0.5s;
+    }
+    
+    .nav__item:hover{
+        color: rgba(62, 156, 220, 1);
+        transition: 0.5s;
+    }
+    
+    .nav__item.first{
+        margin: 0;
+    }
+
+
+   /* offer section */
+
+.main{
+    min-width: 360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.main__offer{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__title{
+    width: 200px;
+    margin: 5px 0px 0px 20px;
+}
+
+.offer__title  .title__text{
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.offer_discription{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 0px 20px;
+}
+
+.discription__title{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;  
+}
+
+.discription__value{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+}
+
+.value__item{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-top: 1px;
+}
+
+.offer__btn{
+    display: flex;
+    justify-content: start;
+    margin: 5px 0px 0px 10px;
+}
+
+.btn__buy{
+    background-color: rgba(62, 156, 220, 1);
+    border: 1px solid white;
+    color: white;
+    transition: 0.7s;
+}
+
+.btn__buy:hover{
+    background-color: white;
+    border: 1px solid rgba(62, 156, 220, 1);
+    color: black;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.btn__info{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(111, 109, 123, 1);
+    color: rgba(42, 43, 48, 1);
+    transition: 0.7s;
+}
+
+.btn__info:hover{
+    background-color: rgba(111, 109, 123, 1) ;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+.offer__btn .offerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 15px;
+    
+    border-radius: 4px;
+    margin-left: 10px;
+
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/* order section */
+
+.main__order{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-image: url(../public/img/blackBack.png);
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.order__title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order__title .title__text{
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title__info{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgba(187, 187, 187, 1);
+    margin-top: 5px;
+
+}
+
+.order__scheme{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cheme__img{
+    width: 100%;
+}
+
+.order__inputs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+.order__inputs input{
+    width: 85px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 1);
+
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+
+    transition: width 0.5s cubic-bezier(0, 0, 1, 1) 10ms;
+}
+
+.order__inputs input::placeholder{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgba(39, 39, 51, 1);
+    padding-left: 0px;
+}
+
+.order__inputs input:hover{
+    width: 90px;
+    background-color: rgb(244, 244, 244);
+    transition: 0.5s;
+}
+
+.inputs__mail {
+    margin: 0px 10px 0px 10px;
+}
+
+.order__settings{
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px 0px 60px;
+}
+
+.settings__slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.slider__info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 8px;
+}
+
+.info__text{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.slider__container{
+    margin-top: 5px;
+}
+
+#fader {
+	position: relative;
+	width: 170px;
+	background: rgba(255, 255, 255, 0.7);
+    appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	border-radius: 4px;
+    height: 2px;   
+}
+
+#fader::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: rgba(66, 169, 237, 1);
+	border: solid 3px rgba(40, 102, 144, 1);
+}
+
+.settings__file{
+    margin-left: 10px;
+}
+
+.file__button{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 18px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid rgba(62, 156, 220, 1);
+
+}
+
+.file__button:hover .button__icon{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.button__icon{
+    width: 8px;
+    height: 8px;   
+    transition: 1s; 
+}
+
+.button__txt{
+    margin-left: 10px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.order__subbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subbtn__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    width: 100px;
+    height: 18px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(62, 156, 220, 1);    
+    transition: 0.5s;
+
+    font-family: "Lato";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.subbtn__btn:hover{
+    transition: 0.5s;
+    border: 1px solid rgba(62, 156, 220, 1); 
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(62, 156, 220, 1); 
+}
+
+
+/* reviews section */
+.main .reviews {
+    padding: 20px 0px 20px 0px;
+    max-width: 100%;
+    width: 100vw;
+  }
+  .main .reviews .carousel__container {
+    max-width: 400px;
+    height: 130px;
+  }
+  .main .reviews .carousel__container .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item .item__name {
+    margin: 0px;
+    font-size: 12px;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item .item__info {
+    font-size: 10px;
+    color: #555;
+    font-family: "Lato";
+  }
+  .main .reviews .carousel__container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .main .reviews .carousel__container button:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .main .reviews .carousel__container .prev {
+    left: 0px;
+  }
+  .main .reviews .carousel__container .next {
+    right: 0px;
+  }
+
+  
+
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(61, 64, 80, 1);
+}
+
+.footer__rules{
+    margin: 10px;
+}
+
+.rules__txt{
+    white-space: normal;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.rcolumn{
+    display: none;
+}
+
+.footer__wallets{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wallets__qiwi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.qiwi__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.qiwi__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.wallets__yandex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.yandex__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.yandex__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.wallets__webmoney{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.webmoney__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.webmoney__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.lcolumn{
+   display: none;
+}
+
+.footer__contact{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.mail__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.mail__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+
+.contact__vk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.vk__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.vk__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+}
+
+@media(min-width:401px) and (max-width: 501px) {
+    .header{
+        max-width: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(16, 16, 29, 0.9);
+    }
+    
+    .header_logo{
+        margin: 5px 0px 5px 10px;
+        transition: 1s;
+    }
+    .logo__title {
+        font-family: "Raleway";
+        font-size: 10px;
+        font-weight: 800;
+        line-height: normal;
+        text-align: left;
+        color: white;
+    }
+   
+
+    .header__nav.mob{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 10px 5px 0px;
+    }
+    
+
+    .header__nav{
+        display: flex;
+        justify-content: start;
+        margin: 0px;
+    }
+
+    .mob__upi{
+        width: 10px;
+        height: 1.5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+    .mob__dpi{
+        margin-top: 2px;
+        width: 10px;
+        height: 1.5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+    .mob__list{
+        margin-top: 15px;
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        margin-left: -60px;
+        background-color: rgba(16, 16, 29, 0.9);
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    .mob__item{
+        font-size: 10px;
+        margin-top: 2px;
+        color: white;
+    }
+    
+    .header__nav{
+        display: none
+    }
+    
+    .nav__item{
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;    
+        font-family: "Lato";
+        font-size: 5px;
+        font-weight: 600;
+        line-height: 15.6px;
+        text-align: right;
+        margin-left: 60px;
+        transition: 0.5s;
+    }
+    
+    .nav__item:hover{
+        color: rgba(62, 156, 220, 1);
+        transition: 0.5s;
+    }
+    
+    .nav__item.first{
+        margin: 0;
+    }
+
+
+   /* offer section */
+
+.main{
+    min-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.main__offer{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__title{
+    width: 200px;
+    margin: 5px 0px 0px 20px;
+}
+
+.offer__title  .title__text{
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.offer_discription{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 0px 20px;
+}
+
+.discription__title{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;  
+}
+
+.discription__value{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+}
+
+.value__item{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-top: 1px;
+}
+
+.offer__btn{
+    display: flex;
+    justify-content: start;
+    margin: 5px 0px 0px 10px;
+}
+
+.btn__buy{
+    background-color: rgba(62, 156, 220, 1);
+    border: 1px solid white;
+    color: white;
+    transition: 0.7s;
+}
+
+.btn__buy:hover{
+    background-color: white;
+    border: 1px solid rgba(62, 156, 220, 1);
+    color: black;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.btn__info{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(111, 109, 123, 1);
+    color: rgba(42, 43, 48, 1);
+    transition: 0.7s;
+}
+
+.btn__info:hover{
+    background-color: rgba(111, 109, 123, 1) ;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+.offer__btn .offerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 15px;
+    
+    border-radius: 4px;
+    margin-left: 10px;
+
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/* order section */
+
+.main__order{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-image: url(../public/img/blackBack.png);
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.order__title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order__title .title__text{
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title__info{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgba(187, 187, 187, 1);
+    margin-top: 5px;
+
+}
+
+.order__scheme{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cheme__img{
+    width: 100%;
+}
+
+.order__inputs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+.order__inputs input{
+    width: 85px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 1);
+
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+
+    transition: width 0.5s cubic-bezier(0, 0, 1, 1) 10ms;
+}
+
+.order__inputs input::placeholder{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgba(39, 39, 51, 1);
+    padding-left: 0px;
+}
+
+.order__inputs input:hover{
+    width: 90px;
+    background-color: rgb(244, 244, 244);
+    transition: 0.5s;
+}
+
+.inputs__mail {
+    margin: 0px 10px 0px 10px;
+}
+
+.order__settings{
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px 0px 110px;
+}
+
+.settings__slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.slider__info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 8px;
+}
+
+.info__text{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.slider__container{
+    margin-top: 5px;
+}
+
+#fader {
+	position: relative;
+	width: 170px;
+	background: rgba(255, 255, 255, 0.7);
+    appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	border-radius: 4px;
+    height: 2px;   
+}
+
+#fader::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: rgba(66, 169, 237, 1);
+	border: solid 3px rgba(40, 102, 144, 1);
+}
+
+.settings__file{
+    margin-left: 10px;
+}
+
+.file__button{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 18px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid rgba(62, 156, 220, 1);
+
+}
+
+.file__button:hover .button__icon{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.button__icon{
+    width: 8px;
+    height: 8px;   
+    transition: 1s; 
+}
+
+.button__txt{
+    margin-left: 10px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.order__subbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subbtn__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    width: 100px;
+    height: 18px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(62, 156, 220, 1);    
+    transition: 0.5s;
+
+    font-family: "Lato";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.subbtn__btn:hover{
+    transition: 0.5s;
+    border: 1px solid rgba(62, 156, 220, 1); 
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(62, 156, 220, 1); 
+}
+
+
+/* reviews section */
+.main .reviews {
+    padding: 20px 0px 20px 0px;
+    max-width: 100%;
+    width: 100vw;
+  }
+  .main .reviews .carousel__container {
+    max-width: 500px;
+    height: 130px;
+  }
+  .main .reviews .carousel__container .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item .item__name {
+    margin: 0px;
+    font-size: 12px;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item .item__info {
+    font-size: 10px;
+    color: #555;
+    font-family: "Lato";
+  }
+  .main .reviews .carousel__container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .main .reviews .carousel__container button:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .main .reviews .carousel__container .prev {
+    left: 0px;
+  }
+  .main .reviews .carousel__container .next {
+    right: 0px;
+  }
+
+  
+
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(61, 64, 80, 1);
+}
+
+.footer__rules{
+    margin: 10px;
+}
+
+.rules__txt{
+    white-space: normal;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.rcolumn{
+    display: none;
+}
+
+.footer__wallets{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wallets__qiwi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.qiwi__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.qiwi__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.wallets__yandex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.yandex__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.yandex__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.wallets__webmoney{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.webmoney__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.webmoney__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.lcolumn{
+   display: none;
+}
+
+.footer__contact{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.mail__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.mail__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+
+.contact__vk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.vk__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.vk__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+}
+
+@media(min-width:500px) and (max-width: 700px) {
+    .header{
+        max-width: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(16, 16, 29, 0.9);
+    }
+    
+    .header_logo{
+        margin: 5px 0px 5px 10px;
+        transition: 1s;
+    }
+    .logo__title {
+        font-family: "Raleway";
+        font-size: 10px;
+        font-weight: 800;
+        line-height: normal;
+        text-align: left;
+        color: white;
+    }
+   
+
+    .header__nav.mob{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 10px 5px 0px;
+    }
+    
+
+    .header__nav{
+        display: flex;
+        justify-content: start;
+        margin: 0px;
+    }
+
+    .mob__upi{
+        width: 10px;
+        height: 1.5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+    .mob__dpi{
+        margin-top: 2px;
+        width: 10px;
+        height: 1.5px;
+        background-color: rgb(255, 255, 255);
+        transition: 0.5s;
+    }
+
+    .mob__list{
+        margin-top: 15px;
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        margin-left: -60px;
+        background-color: rgba(16, 16, 29, 0.9);
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    .mob__item{
+        font-size: 10px;
+        margin-top: 2px;
+        color: white;
+    }
+    
+    .header__nav{
+        display: none
+    }
+    
+    .nav__item{
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;    
+        font-family: "Lato";
+        font-size: 5px;
+        font-weight: 600;
+        line-height: 15.6px;
+        text-align: right;
+        margin-left: 60px;
+        transition: 0.5s;
+    }
+    
+    .nav__item:hover{
+        color: rgba(62, 156, 220, 1);
+        transition: 0.5s;
+    }
+    
+    .nav__item.first{
+        margin: 0;
+    }
+
+
+   /* offer section */
+
+.main{
+    min-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.main__offer{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__title{
+    width: 200px;
+    margin: 5px 0px 0px 20px;
+}
+
+.offer__title  .title__text{
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.offer_discription{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px 0px 20px;
+}
+
+.discription__title{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;  
+}
+
+.discription__value{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+}
+
+.value__item{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-top: 1px;
+}
+
+.offer__btn{
+    display: flex;
+    justify-content: start;
+    margin: 5px 0px 0px 10px;
+}
+
+.btn__buy{
+    background-color: rgba(62, 156, 220, 1);
+    border: 1px solid white;
+    color: white;
+    transition: 0.7s;
+}
+
+.btn__buy:hover{
+    background-color: white;
+    border: 1px solid rgba(62, 156, 220, 1);
+    color: black;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.btn__info{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(111, 109, 123, 1);
+    color: rgba(42, 43, 48, 1);
+    transition: 0.7s;
+}
+
+.btn__info:hover{
+    background-color: rgba(111, 109, 123, 1) ;
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+
+.offer__btn .offerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 15px;
+    
+    border-radius: 4px;
+    margin-left: 10px;
+
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/* order section */
+
+.main__order{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-image: url(../public/img/blackBack.png);
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.order__title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.order__title .title__text{
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title__info{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgba(187, 187, 187, 1);
+    margin-top: 5px;
+
+}
+
+.order__scheme{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cheme__img{
+    width: 100%;
+}
+
+.order__inputs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+.order__inputs input{
+    width: 85px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 1);
+
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    padding-left: 0px;
+
+    transition: width 0.5s cubic-bezier(0, 0, 1, 1) 10ms;
+}
+
+.order__inputs input::placeholder{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: rgba(39, 39, 51, 1);
+    padding-left: 0px;
+}
+
+.order__inputs input:hover{
+    width: 90px;
+    background-color: rgb(244, 244, 244);
+    transition: 0.5s;
+}
+
+.inputs__mail {
+    margin: 0px 10px 0px 10px;
+}
+
+.order__settings{
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px 0px 110px;
+}
+
+.settings__slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.slider__info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 8px;
+}
+
+.info__text{
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.slider__container{
+    margin-top: 5px;
+}
+
+#fader {
+	position: relative;
+	width: 170px;
+	background: rgba(255, 255, 255, 0.7);
+    appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+	border-radius: 4px;
+    height: 2px;   
+}
+
+#fader::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: rgba(66, 169, 237, 1);
+	border: solid 3px rgba(40, 102, 144, 1);
+}
+
+.settings__file{
+    margin-left: 10px;
+}
+
+.file__button{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 18px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid rgba(62, 156, 220, 1);
+
+}
+
+.file__button:hover .button__icon{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.button__icon{
+    width: 8px;
+    height: 8px;   
+    transition: 1s; 
+}
+
+.button__txt{
+    margin-left: 10px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.order__subbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subbtn__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    width: 100px;
+    height: 18px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(62, 156, 220, 1);    
+    transition: 0.5s;
+
+    font-family: "Lato";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.subbtn__btn:hover{
+    transition: 0.5s;
+    border: 1px solid rgba(62, 156, 220, 1); 
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(62, 156, 220, 1); 
+}
+
+
+/* reviews section */
+.main .reviews {
+    padding: 20px 0px 20px 0px;
+    max-width: 100%;
+    width: 100vw;
+  }
+  .main .reviews .carousel__container {
+    max-width: 700px;
+    height: 130px;
+  }
+  .main .reviews .carousel__container .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item .item__name {
+    margin: 0px;
+    font-size: 12px;
+  }
+  .main .reviews .carousel__container .carousel .carousel__item .item__info {
+    font-size: 10px;
+    color: #555;
+    font-family: "Lato";
+  }
+  .main .reviews .carousel__container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .main .reviews .carousel__container button:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .main .reviews .carousel__container .prev {
+    left: 0px;
+  }
+  .main .reviews .carousel__container .next {
+    right: 0px;
+  }
+
+  
+
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(61, 64, 80, 1);
+}
+
+.footer__rules{
+    margin: 10px;
+}
+
+.rules__txt{
+    white-space: normal;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.rcolumn{
+    display: none;
+}
+
+.footer__wallets{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wallets__qiwi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.qiwi__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.qiwi__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.wallets__yandex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.yandex__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.yandex__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.wallets__webmoney{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.webmoney__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.webmoney__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.lcolumn{
+   display: none;
+}
+
+.footer__contact{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.mail__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.mail__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+
+.contact__vk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 0px;
+}
+
+.vk__icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.vk__name{
+    margin: 5px;
+    font-family: "Lato";
+    font-size: 8px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+}
+
+
+
+
+
+
