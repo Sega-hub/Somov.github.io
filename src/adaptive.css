@@ -1977,7 +1977,7 @@
     }
     .logo__title {
         font-family: "Raleway";
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 800;
         line-height: normal;
         text-align: left;
@@ -2025,25 +2025,13 @@
     }
 
     .mob__item{
-        font-size: 10px;
+        font-size: 13px;
         margin-top: 2px;
         color: white;
     }
     
     .header__nav{
         display: none
-    }
-    
-    .nav__item{
-        color: rgba(255, 255, 255, 1);
-        text-transform: uppercase;    
-        font-family: "Lato";
-        font-size: 5px;
-        font-weight: 600;
-        line-height: 15.6px;
-        text-align: right;
-        margin-left: 60px;
-        transition: 0.5s;
     }
     
     .nav__item:hover{
@@ -2074,13 +2062,13 @@
 }
 
 .offer__title{
-    width: 200px;
-    margin: 5px 0px 0px 20px;
+    width: 250px;
+    margin: 10px 0px 0px 40px;  
 }
 
 .offer__title  .title__text{
     font-family: "Lato";
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     line-height: normal;
     text-align: left;
@@ -2091,12 +2079,12 @@
 .offer_discription{
     display: flex;
     flex-direction: column;
-    margin: 5px 0px 0px 20px;
+    margin: 10px 0px 0px 40px;  
 }
 
 .discription__title{
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 700;
     line-height: normal;
     text-align: left;  
@@ -2110,7 +2098,7 @@
 
 .value__item{
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: left;
@@ -2120,7 +2108,7 @@
 .offer__btn{
     display: flex;
     justify-content: start;
-    margin: 5px 0px 0px 10px;
+    margin: 10px 0px 0px 40px;  
 }
 
 .btn__buy{
@@ -2158,14 +2146,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 75px;
-    height: 15px;
+    width: 80px;
+    height: 20px;
     
     border-radius: 4px;
     margin-left: 10px;
 
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: center;
@@ -2196,7 +2184,7 @@
 
 .order__title .title__text{
     font-family: "Lato";
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 800;
     line-height: normal;
     text-align: left;
@@ -2206,7 +2194,7 @@
 
 .title__info{
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: left;
@@ -2234,13 +2222,13 @@
 }
 
 .order__inputs input{
-    width: 85px;
+    width: 100px;
     height: 18px;
     border-radius: 3px;
     border: 1px solid rgba(255, 255, 255, 1);
 
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: left;
@@ -2252,7 +2240,7 @@
 
 .order__inputs input::placeholder{
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: left;
@@ -2272,8 +2260,8 @@
 
 .order__settings{
     display: flex;
-    justify-content: start;
-    margin: 10px 0px 0px 110px;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
 }
 
 .settings__slider{
@@ -2285,13 +2273,14 @@
 .slider__info{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 .info__text{
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: left;
@@ -2304,13 +2293,13 @@
 
 #fader {
 	position: relative;
-	width: 170px;
+	width: 250px;
 	background: rgba(255, 255, 255, 0.7);
     appearance: none;
 	-webkit-appearance: none;
 	outline: none;
 	border-radius: 4px;
-    height: 2px;   
+    height: 2px;  
 }
 
 #fader::-webkit-slider-thumb {
@@ -2330,9 +2319,9 @@
     display: flex;  
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 18px;
-    padding: 10px;
+    width: 110px;
+    height: 24px;
+    padding: 15px;
     border-radius: 3px;
     border: 2px solid rgba(62, 156, 220, 1);
 
@@ -2344,15 +2333,15 @@
 }
 
 .button__icon{
-    width: 8px;
-    height: 8px;   
+    width: 14px;
+    height: 14px;   
     transition: 1s; 
 }
 
 .button__txt{
     margin-left: 10px;
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 600;
     line-height: normal;
     text-align: left;
@@ -2372,7 +2361,7 @@
     align-items: center;
 
     margin-top: 20px;
-    width: 100px;
+    width: 120px;
     height: 18px;
     padding: 15px 10px 15px 10px;
     border-radius: 4px;
@@ -2381,7 +2370,7 @@
     transition: 0.5s;
 
     font-family: "Lato";
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
     line-height: normal;
     text-align: center;
@@ -2405,7 +2394,7 @@
   }
   .main .reviews .carousel__container {
     max-width: 500px;
-    height: 130px;
+    height: 150px;
   }
   .main .reviews .carousel__container .carousel {
     display: flex;
@@ -2419,10 +2408,10 @@
   }
   .main .reviews .carousel__container .carousel .carousel__item .item__name {
     margin: 0px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .main .reviews .carousel__container .carousel .carousel__item .item__info {
-    font-size: 10px;
+    font-size: 12px;
     color: #555;
     font-family: "Lato";
   }
@@ -2630,7 +2619,7 @@
     }
     .logo__title {
         font-family: "Raleway";
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 800;
         line-height: normal;
         text-align: left;
@@ -2678,25 +2667,13 @@
     }
 
     .mob__item{
-        font-size: 10px;
+        font-size: 13px;
         margin-top: 2px;
         color: white;
     }
     
     .header__nav{
         display: none
-    }
-    
-    .nav__item{
-        color: rgba(255, 255, 255, 1);
-        text-transform: uppercase;    
-        font-family: "Lato";
-        font-size: 5px;
-        font-weight: 600;
-        line-height: 15.6px;
-        text-align: right;
-        margin-left: 60px;
-        transition: 0.5s;
     }
     
     .nav__item:hover{
@@ -2727,13 +2704,13 @@
 }
 
 .offer__title{
-    width: 200px;
-    margin: 5px 0px 0px 20px;
+    width: 250px;
+    margin: 10px 0px 0px 40px;  
 }
 
 .offer__title  .title__text{
     font-family: "Lato";
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     line-height: normal;
     text-align: left;
@@ -2744,12 +2721,12 @@
 .offer_discription{
     display: flex;
     flex-direction: column;
-    margin: 5px 0px 0px 20px;
+    margin: 10px 0px 0px 40px;  
 }
 
 .discription__title{
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 700;
     line-height: normal;
     text-align: left;  
@@ -2763,7 +2740,7 @@
 
 .value__item{
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: left;
@@ -2773,7 +2750,7 @@
 .offer__btn{
     display: flex;
     justify-content: start;
-    margin: 5px 0px 0px 10px;
+    margin: 10px 0px 0px 40px;  
 }
 
 .btn__buy{
@@ -2811,14 +2788,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 75px;
-    height: 15px;
+    width: 80px;
+    height: 20px;
     
     border-radius: 4px;
     margin-left: 10px;
 
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: center;
@@ -2849,7 +2826,7 @@
 
 .order__title .title__text{
     font-family: "Lato";
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 800;
     line-height: normal;
     text-align: left;
@@ -2859,7 +2836,7 @@
 
 .title__info{
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: left;
@@ -2887,13 +2864,13 @@
 }
 
 .order__inputs input{
-    width: 85px;
+    width: 100px;
     height: 18px;
     border-radius: 3px;
     border: 1px solid rgba(255, 255, 255, 1);
 
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: left;
@@ -2905,7 +2882,7 @@
 
 .order__inputs input::placeholder{
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: left;
@@ -2925,8 +2902,8 @@
 
 .order__settings{
     display: flex;
-    justify-content: start;
-    margin: 10px 0px 0px 110px;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
 }
 
 .settings__slider{
@@ -2938,13 +2915,14 @@
 .slider__info{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 .info__text{
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 400;
     line-height: normal;
     text-align: left;
@@ -2957,13 +2935,13 @@
 
 #fader {
 	position: relative;
-	width: 170px;
+	width: 250px;
 	background: rgba(255, 255, 255, 0.7);
     appearance: none;
 	-webkit-appearance: none;
 	outline: none;
 	border-radius: 4px;
-    height: 2px;   
+    height: 2px;  
 }
 
 #fader::-webkit-slider-thumb {
@@ -2983,9 +2961,9 @@
     display: flex;  
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 18px;
-    padding: 10px;
+    width: 110px;
+    height: 24px;
+    padding: 15px;
     border-radius: 3px;
     border: 2px solid rgba(62, 156, 220, 1);
 
@@ -2997,15 +2975,15 @@
 }
 
 .button__icon{
-    width: 8px;
-    height: 8px;   
+    width: 14px;
+    height: 14px;   
     transition: 1s; 
 }
 
 .button__txt{
     margin-left: 10px;
     font-family: "Lato";
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 600;
     line-height: normal;
     text-align: left;
@@ -3025,7 +3003,7 @@
     align-items: center;
 
     margin-top: 20px;
-    width: 100px;
+    width: 120px;
     height: 18px;
     padding: 15px 10px 15px 10px;
     border-radius: 4px;
@@ -3034,7 +3012,7 @@
     transition: 0.5s;
 
     font-family: "Lato";
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
     line-height: normal;
     text-align: center;
@@ -3058,7 +3036,7 @@
   }
   .main .reviews .carousel__container {
     max-width: 700px;
-    height: 130px;
+    height: 150px;
   }
   .main .reviews .carousel__container .carousel {
     display: flex;
@@ -3072,10 +3050,10 @@
   }
   .main .reviews .carousel__container .carousel .carousel__item .item__name {
     margin: 0px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .main .reviews .carousel__container .carousel .carousel__item .item__info {
-    font-size: 10px;
+    font-size: 12px;
     color: #555;
     font-family: "Lato";
   }
