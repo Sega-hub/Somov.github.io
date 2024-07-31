@@ -28,8 +28,11 @@ a{
 /* проект */
 
 .header{
+    max-width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
+    position: fixed;
     background-color: rgba(16, 16, 29, 0.9);
 }
 
@@ -109,13 +112,14 @@ a{
     min-width: 1519px;
     display: flex;
     flex-direction: column;
-    z-index: 1;
+    z-index: 1;    
 }
 
 .main__offer{
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-top:25px;
 }
 
 .offer__title{
